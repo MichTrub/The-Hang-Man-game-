@@ -49,7 +49,7 @@ HANGMAN_PICS = ['''
  / \  |
       |
 =========''']
-list_of_words = ["sloth", "koala", "leopard", "tiger", "panda", "elephant", "giraffe","pumpkin","python","intersection","recursive","freckle","month","easy","turkey","if"]
+list_of_words = ["koala", "leopard", "tiger", "panda", "elephant", "giraffe","pumpkin","python","intersection","recursive","month","easy","turkey","if"]
 random_choice= random.randint(0,len(list_of_words)-1)
 back_word = list_of_words[random_choice]
 front_word = []
